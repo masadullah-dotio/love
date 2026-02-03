@@ -49,4 +49,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - **Type Imports**: Use direct imports for types instead of namespaced imports.
     - **Good**: `import { ReactNode } from 'react'`
     - **Bad**: `React.ReactNode`
-
+- **Exports**: Use `const` for component definitions and `export default` for the component.
+- **HTML**: Usage of semantic HTML tags is mandatory (e.g., `<header>`, `<main>`, `<section>`, `<article>`).
+- **Animations**: Use `motion` components from `framer-motion` for animations (e.g., `motion.div`, `motion.header`).
